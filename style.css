@@ -522,10 +522,12 @@ template {
 #header {
 	font-size: 12px;
 	width: 120px;
+	min-height: 500px;
+	display: flex;
+	align-items: center;
 }
 #header .logo {
     display: block;
-    font-size: 12px;
     padding-bottom: 25px;
     text-align: left;
     transform: rotate(-90deg);
@@ -550,7 +552,11 @@ template {
 #footer {
     width: 120px;
 	font-size: 12px;
+	min-height: 500px;
+	display: flex;
+	align-items: center;
 }
 .footer {
     transform: rotate(90deg);
+	 padding-bottom: 25px;
 }
